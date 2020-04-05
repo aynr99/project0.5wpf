@@ -1,0 +1,15 @@
+C:\Users\sepidak_sf\Desktop\GitHub\project0.5wpf\wpf0.5\bin\Debug\wpf0.5.exe.config
+C:\Users\sepidak_sf\Desktop\GitHub\project0.5wpf\wpf0.5\bin\Debug\wpf0.5.exe
+C:\Users\sepidak_sf\Desktop\GitHub\project0.5wpf\wpf0.5\bin\Debug\wpf0.5.pdb
+C:\Users\sepidak_sf\Desktop\GitHub\project0.5wpf\wpf0.5\obj\Debug\wpf0.5.csprojAssemblyReference.cache
+C:\Users\sepidak_sf\Desktop\GitHub\project0.5wpf\wpf0.5\obj\Debug\MainWindow.g.cs
+C:\Users\sepidak_sf\Desktop\GitHub\project0.5wpf\wpf0.5\obj\Debug\App.g.cs
+C:\Users\sepidak_sf\Desktop\GitHub\project0.5wpf\wpf0.5\obj\Debug\wpf0.5_MarkupCompile.cache
+C:\Users\sepidak_sf\Desktop\GitHub\project0.5wpf\wpf0.5\obj\Debug\wpf0.5_MarkupCompile.lref
+C:\Users\sepidak_sf\Desktop\GitHub\project0.5wpf\wpf0.5\obj\Debug\MainWindow.baml
+C:\Users\sepidak_sf\Desktop\GitHub\project0.5wpf\wpf0.5\obj\Debug\wpf0.5.g.resources
+C:\Users\sepidak_sf\Desktop\GitHub\project0.5wpf\wpf0.5\obj\Debug\wpf0._5.Properties.Resources.resources
+C:\Users\sepidak_sf\Desktop\GitHub\project0.5wpf\wpf0.5\obj\Debug\wpf0.5.csproj.GenerateResource.cache
+C:\Users\sepidak_sf\Desktop\GitHub\project0.5wpf\wpf0.5\obj\Debug\wpf0.5.csproj.CoreCompileInputs.cache
+C:\Users\sepidak_sf\Desktop\GitHub\project0.5wpf\wpf0.5\obj\Debug\wpf0.5.exe
+C:\Users\sepidak_sf\Desktop\GitHub\project0.5wpf\wpf0.5\obj\Debug\wpf0.5.pdb
