@@ -24,5 +24,13 @@ namespace wpf0._5
         {
             InitializeComponent();
         }
+        private void btnSecoundTab_Click(object sender,RoutedEventArgs e)
+        {
+            prjwpf.SelectedIndex--;
+        }
+        private void btnFirstTab_Click(object sender, RoutedEventArgs e)
+        {
+            prjwpf.SelectedIndex++;
+        }
     }
 }
