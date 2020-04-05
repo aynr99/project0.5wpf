@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:wpf0._5"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="pro0.5wpf" Height="450" Width="815">
     <DockPanel>
         <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom" >
             <TabControl x:Name="prjwpf" Width="800">
@@ -13,8 +13,9 @@
                     <Border Padding="10">
                         <StackPanel>
 
-                            <TextBlock Name="txtb1" Margin="10 0 0 20"  Text="a text block" />
-                            <!-- Buttons -->
+                            <TextBlock Name="txtb1" Margin="10 0 0 20"  Text="WPF First Project" />
+                            
+							<!-- Buttons -->
                             <Grid>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="*"/>
@@ -23,20 +24,22 @@
                                 </Grid.ColumnDefinitions>
                                 <Button Margin="10 10 16.5 0" Grid.Column="0" Content="Save"/>
                                 <Button Margin="13.5 10 13.5 0" Grid.Column="1" Content="load"/>
-                                <Button  Margin="16.5 10 10 0" Grid.Column="2" Content="R"/>
+                                <Button  Margin="16.5 10 10 0" Grid.Column="2" Content="Reload"/>
                             </Grid>
 
-                            <Button Margin="0 30 0 0" Content="new"></Button>
+                            <Button Margin="10 30 10 0" Content="new"></Button>
                             <TextBlock Margin="0 20 0 0" FontWeight="Bold" Text="checkboxes" />
-                            <!-- check boxes and combobox-->
+                            
+							<!-- check boxes and combobox-->
                             <Grid>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="*"/>
                                     <ColumnDefinition Width="*"/>
                                     <ColumnDefinition Width="2*"/>
                                 </Grid.ColumnDefinitions>
-                                <!-- Column1-->
-                                <StackPanel Grid.Column="0" Margin="0 5 0 0">
+                               
+								<!-- Column1-->
+                                <StackPanel Grid.Column="0" Margin="0 10 0 0">
                                 
                                 
                                     <CheckBox Margin="0 5 0 0" Content="1" ></CheckBox>
@@ -45,28 +48,37 @@
                                     <CheckBox Margin="0 5 0 0" Content="4" ></CheckBox>
                                 
                                 </StackPanel>
-                                <!-- COlumn2 -->
+                               
+								<!-- COlumn2 -->
                                 <StackPanel Grid.Column="1" Margin="0 10 0 0">
                                     <CheckBox Margin="0 5 0 0" Content="11" ></CheckBox>
                                     <CheckBox Margin="0 5 0 0" Content="22" ></CheckBox>
                                     <CheckBox Margin="0 5 0 0" Content="33" ></CheckBox>
                                     <CheckBox Margin="0 5 0 0" Content="44" ></CheckBox>
                                 </StackPanel>
-                                <!--Combobox-->
-                                <ComboBox  Margin="30 10 0 60" Grid.Column="2" Padding="2"></ComboBox>
-                            </Grid>
+                               
+								<!--Combobox-->
+                                <ComboBox  Margin="30 10 0 60" Grid.Column="2" Padding="2">
+									<ComboBoxItem>first</ComboBoxItem>
+									<ComboBoxItem>secound</ComboBoxItem>
+									<ComboBoxItem>third</ComboBoxItem>
+									<ComboBoxItem>forth</ComboBoxItem>
+								</ComboBox>
+                           
+							</Grid>
+							
 							<TextBlock Margin="0 10 0 0" FontWeight="Bold" Text="Textbox : " />
-							<TextBox IsReadOnly="True" Margin="10 10 10 0" Padding="2"></TextBox>
+
+                            <TextBox  Margin="10 10 10 0"  AcceptsReturn="True" TextWrapping="Wrap" Padding="2"></TextBox>
+					       
 							<Button x:Name="btntSecoundTab" Click="btnSecoundTab_Click"  Margin="20 20 20 0" Content="Secound"/>
-                            
-
-
-
-                        </StackPanel>
+                         
+						</StackPanel>
                     </Border>
                     
                 </TabItem>
                 <TabItem Header="second">
+					<Border Padding="10">
 						<StackPanel>
 							<TextBlock  Margin="10 20 0 10" FontSize="15" FontWeight="Bold" Text="Enter the following informations: " />
 							<Grid>
@@ -75,7 +87,7 @@
 									<ColumnDefinition Width="7*"/>
 								</Grid.ColumnDefinitions>
 								<TextBlock  Margin="10 10 0 15" Grid.Column="0" Text="Name : " FontSize="15" />
-								<TextBox IsReadOnly="True" Grid.Column="1" Margin="0 10 10 15" Padding="2"></TextBox>
+								<TextBox  Grid.Column="1" Margin="0 10 10 15" Padding="2"></TextBox>
 							</Grid>
 							<Grid>
 								<Grid.ColumnDefinitions>
@@ -83,7 +95,7 @@
 									<ColumnDefinition Width="7*"/>
 								</Grid.ColumnDefinitions>
 								<TextBlock  Margin="10 10 0 15" Grid.Column="0" Text="Family : " FontSize="15" />
-								<TextBox IsReadOnly="True" Grid.Column="1" Margin="0 10 10 15" Padding="2"></TextBox>
+								<TextBox  Grid.Column="1" Margin="0 10 10 15" Padding="2"></TextBox>
 							</Grid>
 							<Grid>
 								<Grid.ColumnDefinitions>
@@ -91,7 +103,7 @@
 									<ColumnDefinition Width="7*"/>
 								</Grid.ColumnDefinitions>
 								<TextBlock  Margin="10 10 0 15" Grid.Column="0" Text="Age : " FontSize="15" />
-								<TextBox IsReadOnly="True" Grid.Column="1" Margin="0 10 10 15" Padding="2"></TextBox>
+								<TextBox  Grid.Column="1" Margin="0 10 10 15" Padding="2"></TextBox>
 							</Grid>
 							<Grid>
 								<Grid.ColumnDefinitions>
@@ -99,13 +111,15 @@
 									<ColumnDefinition Width="6*"/>
 								</Grid.ColumnDefinitions>
 								<TextBlock  Margin="10 10 0 15" Grid.Column="0" Text="Equations :" FontSize="15" />
-								<TextBox IsReadOnly="True" Grid.Column="1" Margin="30 10 10 15" Padding="2"></TextBox>
+								<TextBox Grid.Column="1" AcceptsReturn="True" TextWrapping="Wrap" Margin="30 10 10 15" Padding="2"></TextBox>
 							</Grid>
-							
-						</StackPanel>
-					<!--Button x:Name="btnFirstTab" Click="btnFirstTab_Click" Content="First"  />-->
-                    
+							<Image Source="/WPF.png"  Stretch="Uniform" Height="80"/>
+							<Button x:Name="btnFirstTab" Click="btnFirstTab_Click" Margin="20 6 20 0" Content="First"  />
 
+						</StackPanel>
+					
+
+					</Border>
                 </TabItem>
             </TabControl>
          </StackPanel>
